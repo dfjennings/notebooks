@@ -3,7 +3,7 @@ import fire
 
 
 class Sample():
-    def hello(count, name):
+    def hello(count=1, name='world'):
         """Simple method that greets NAME for a total of COUNT times."""
         for _ in range(count):
             print("Hello, {name}!".format(name=name))
